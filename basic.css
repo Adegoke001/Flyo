@@ -1,0 +1,168 @@
+*{
+    padding:0;
+    margin:0;
+  box-sizing: border-box;  
+  text-decoration: none;
+  list-style: none;
+}
+
+
+/* body styling */
+body{
+  background-color: hsl(218, 28%, 13%);
+  color: white;
+}
+
+/* header container styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* header image styling (logo) */
+header .img {
+  width: 90px;
+}
+
+/* the nav ul styling */
+ .ul{
+    /* padding:5px;
+    border:2px solid gray; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap: 20px;
+ }
+.the{
+  background-color: aqua;
+  color: white;
+  border-radius:30px;
+  padding: 5px 50px;
+  border: 10px solid aqua;
+}
+
+.dank{
+  font-size:40px ;
+  font-weight: 600;
+  /* width:80%;
+  margin:auto;
+  text-align:center;
+  padding-top:100px */
+}
+
+.pat{
+  width:80%;
+  margin:auto;
+  text-align:center;
+  padding-top:100px
+}
+
+h2{
+  font-size: 36px;
+  font-weight:300;
+  line-height:22px;
+  padding:10px;
+
+}
+.row{
+  margin-top:5%;
+  display:flex;
+  justify-content: space-between;
+  flex-basis: 31%; 
+  border-radius:10px;
+  margin-bottom: 5%;
+  padding:20px 12px; 
+  box-sizing: border-box;
+}
+
+
+.top{
+display:flex;
+justify-content:space-between;
+align-items: center;
+
+}
+.last{
+  text-align: center;
+  font-weight: 600;
+  margin:10px 0;
+}
+
+.paint{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display:flex;
+  padding:20px 122px;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tank{
+width: 32%;
+  background-color: hsl(219, 30%, 18%);
+  border-radius: 10px;
+  padding:30px;
+}
+.sub-tank img{
+  width: 50px;
+  border-radius: 50%;
+}
+.sub-tank{
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  gap: 19px;
+  justify-content: flex-start;
+}
+.sub-tank-text h2{
+font-size: 1.2rem;
+padding: 0;
+}
+
+.plot{
+  border: 50px;
+  background-color: hsl(219, 30%, 18%);
+  border-radius: 10px;
+  padding:30px;
+}
+.pin{
+  border: 40px;
+  background-color: hsl(219, 30%, 18%);
+  border-radius: 10px;
+  padding:30px;
+}
+
+.pop{
+  /* width: 70px;
+  height: 50px; */
+  border-radius: 50%;
+}
+
+/* .lip{
+  <svg width="1440" height="449" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 0h1454v449H0z"/></defs><g transform="translate(-14)" fill="none" fill-rule="evenodd"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><path d="M14 413.954c90.836-5.359 176.206-50.375 256.111-135.046C389.968 151.9 364.01 105.164 563.005 148.686 762 192.207 745.05 163.699 873 63.13c127.95-100.57 211-77.554 289 44.667 78 122.222 151 162.895 284 207.778 88.667 29.921 92.03 848.285 10.091 2455.09H14V413.956z" fill="#181F2B" mask="url(#b)"/></g></svg> */
+
+
+.bull{
+  background-color: hsl(219, 30%, 18%);
+border:100px;
+padding:30px;
+margin-top: 5%;
+margin-bottom: 5%;
+/* background-color: aqua; */
+height:200px;
+width: 600px;
+display: flex;
+/* justify-content: center; */
+
+}
+.pant{
+  border: 50px;
+  background-color: white;
+}
+
+.let-tip{
+  display: flex;
+   
+}
